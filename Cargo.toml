@@ -4,6 +4,7 @@ members = [
     "monoio-server",
     "tokio-server",
     "glommio-server",
+    "kbio-server",
 
     "client",
 

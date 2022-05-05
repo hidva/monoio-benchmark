@@ -1,0 +1,9 @@
+[package]
+name = "kbio-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = {path="../config"}
+
+tokio = {path="../../kbio/tokio", features = ["full"]}
